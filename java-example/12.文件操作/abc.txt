@@ -1,0 +1,32 @@
+开启阿帕奇服务器指令：sudo apachectl -k restart
+
+vue指令
+
+# 全局安装 vue-cli
+$ npm install --global vue-cli
+# 创建一个基于 webpack 模板的新项目
+$ vue init webpack my-project
+# 安装依赖，走你
+$ cd my-project
+$ npm install
+$ npm run dev
+
+
+
+开发者账号密码
+huayu.li@dingqongqb.com
+Dingdongqianbao401
+
+蒲公英账号密码
+weiwei.li@dingdongqb.com
+dingdongqianbao
+
+Gogs
+
+root
+dingdongqianbao
+
+
+有米开发者账号：
+3433822253@qq.com
+Ffyhj160101
