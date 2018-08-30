@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.leo.android_1.MainActivity">
+
+    <Button
+        android:id="@+id/id_btn_1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnCliked"
+        android:text="按钮1" />
+
+    <Button
+        android:id="@+id/id_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮2" />
+
+    <TextView
+        android:id="@+id/id_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="阿发你好"
+        android:textSize="36sp" />
+</LinearLayout>
