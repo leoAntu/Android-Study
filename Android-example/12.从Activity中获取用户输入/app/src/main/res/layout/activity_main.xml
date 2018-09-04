@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
+        android:onClick="onDialog"
         android:text="对话框"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"

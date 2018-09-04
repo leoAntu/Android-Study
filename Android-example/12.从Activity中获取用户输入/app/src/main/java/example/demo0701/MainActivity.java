@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity
     //点击对话框
     public void onDialog(View view) {
 
+        PayDialog dlg = new PayDialog();
+        dlg.show(getFragmentManager(), "PayDialog");
     }
 
     // 点击添加按钮
