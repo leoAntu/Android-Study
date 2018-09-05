@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<shape>： 根元素，表示本XML定义了形状的必性-->
+    <!--<solid>：形状的背景颜色-->
+        <!--<stroke> : 形状的边框（颜色、宽度）-->
+            <!--<corners>: 形状的圆解尺寸-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#b7d8f8"/>
+    <stroke android:color="#888" android:width="2dp"/>
+    <corners android:radius="100dp"/>
+</shape>

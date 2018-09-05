@@ -99,7 +99,6 @@ public class UserLoginActivity extends AppCompatActivity {
     }
 
     public void doRegister(View view) {
-
         Intent intent = new Intent(this, RegisterActivity.class);
         startActivity(intent);
     }
