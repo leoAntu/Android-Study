@@ -26,6 +26,7 @@ public class TabBarAdapter extends BaseAdapter {
 
     Context context;
     LayoutInflater layoutInflater;
+
     public TabBarAdapter(Context context) {
         this.context = context;
         layoutInflater = LayoutInflater.from(context);
