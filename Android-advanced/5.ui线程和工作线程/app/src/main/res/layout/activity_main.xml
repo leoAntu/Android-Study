@@ -5,24 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#F9F9F9"
     tools:context="com.example.leo.thread.MainActivity">
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="startCount"
-        android:text="开始倒计时"/>
 
     <TextView
         android:id="@+id/id_display"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:background="#666"
+        android:layout_height="150dp"
+        android:background="#FFF"
         android:gravity="center"
-        android:text="-"
-        android:textColor="#fff"
-        android:textSize="64sp"/>
+        android:text="00:00.00"
+        android:textSize="60sp"/>
+
+    <!-- 横线 -->
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCC" />
+
+    <!-- 空白 -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_button_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_button"
+            android:onClick="startCount"
+            android:text="开始"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+    </LinearLayout>
 
 
 </LinearLayout>
